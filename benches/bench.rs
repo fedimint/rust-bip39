@@ -1,11 +1,11 @@
 #![feature(test)]
 
-extern crate bip39;
+extern crate fedimint_bip39_unpin;
 extern crate test;
 
 use test::Bencher;
 
-use bip39::*;
+use fedimint_bip39_unpin::*;
 
 #[cfg(not(any(
 	feature = "chinese-simplified",
